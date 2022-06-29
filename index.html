@@ -8,13 +8,13 @@
     <title>viukazi jobs portal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
 
 <style>
     *{
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Jost', sans-serif;
     }
 </style>
 </head>
@@ -23,11 +23,12 @@
     <header>
         <nav class="flex justify-between mx-2 mt-2 pt-2 ">
             <div class="flex space-x-4 text-gray-500">
-                <h1 class="text-blue-500 text-xl">VIUKAZI</h1>
-                <h1>Home</h1>
-                <h1>Find Jobs</h1>
-                <h1>Employers</h1>
-                <h1>Candidates</h1>
+                <!-- <h1 class="text-blue-500 text-xl">VIUKAZI</h1> -->
+                <img src="viukazi2.png" alt="" class="h-10">
+                <h1 class="pt-2 pointer">Home</h1>
+                <h1 class="pt-2 pointer">Find Jobs</h1>
+                <h1 class="pt-2 pointer">Employers</h1>
+                <h1 class="pt-2 pointer">Candidates</h1>
             </div>
             <div class="">
                 <button class="bg-blue-100 p-2 border rounded text-blue-400 w-32">Login/Register</button>
@@ -37,7 +38,7 @@
     </header>
     <main class="mx-6">
         <div class="home flex mb-20">
-            <div class="info w-2/3 mt-20">
+            <div class="info w-1/2 mt-20">
                 <h1 class="text-4xl font-bold">
                     There Are <span class="text-blue-500">93,178</span> Postings Here For you!
                 </h1>
@@ -47,11 +48,11 @@
                 </p>
                 <div class=" mt-6 ">
                     <input type="text" name="job_title" id="job_title" placeholder="Enter job title"
-                        class="inline h-14 pl-2 border border-black border-solid rounded">
+                        class="inline h-12 pl-2 border border-black border-solid rounded">
                     <input type="text" name="job_title" id="job_title" placeholder="Location"
-                        class="inline h-14 pl-2 border border-black border-solid rounded">
+                        class="inline h-12 pl-2 border border-black border-solid rounded">
                     <button
-                        class="bg-blue-500 border w-32 p-2 h-14 text-white hover:bg-white hover:border-2 hover:border-blue-500 hover:text-blue-500 font-bold">Search</button>
+                        class="bg-blue-500 border w-32 p-2 h-12 text-white hover:bg-white hover:border-2 hover:border-blue-500 hover:text-blue-500 font-bold">Search</button>
                 </div>
                 <p class="text-sm mt-6 text-gray-500">
                     Popular Searches : Designer Developer Web IOS PHP Senior Engineer
@@ -63,9 +64,10 @@
         </div>
 
         <div class="categories ">
-            <h1 class="text-lg font-bold">Popular Job categories</h1>
-            <div class="categories flex space-x-2">
-                <div class="rounded border border-gray-300 rounded w-3/4 flex ">
+            <h1 class="text-xl font-bold text-center">Popular Job categories</h1>
+            <h1 class="text-gray-500 text-sm text-center mt-2">129 jobs added  today</h1>
+            <div class="categories flex  mt-6 flex-wrap justify-center">
+                <div class="rounded border border-gray-300 rounded w-1/4 flex pl-2">
                     <div class="border bg-gray-300 rounded w-16 h-16 my-2 ml-2">
 
                     </div>
@@ -74,7 +76,7 @@
                         <h1 class="text-sm text-gray-500">(10 Positions)</h1>
                     </div>
                 </div>
-                <div class="rounded border border-gray-300 rounded w-3/4 flex ">
+                <div class="rounded border border-gray-300 rounded w-1/4 flex ml-2 p-6">
                     <div class="border bg-gray-300 rounded w-16 h-16 my-2 ml-2">
 
                     </div>
@@ -83,7 +85,34 @@
                         <h1 class="text-sm text-gray-500">(10 Positions)</h1>
                     </div>
                 </div>
-                <div class="rounded border border-gray-300 rounded w-3/4 flex ">
+                <div class="rounded border border-gray-300 rounded w-1/4 flex ml-2">
+                    <div class="border bg-gray-300 rounded w-16 h-16 my-2 ml-2">
+
+                    </div>
+                    <div class="ml-2 mt-2">
+                        <h1>Accounting/Finance</h1>
+                        <h1 class="text-sm text-gray-500">(10 Positions)</h1>
+                    </div>
+                </div>
+                <div class="rounded border border-gray-300 rounded w-1/4 flex mt-2 ml-2">
+                    <div class="border bg-gray-300 rounded w-16 h-16 my-2 ml-2">
+
+                    </div>
+                    <div class="ml-2 mt-2">
+                        <h1>Accounting/Finance</h1>
+                        <h1 class="text-sm text-gray-500">(10 Positions)</h1>
+                    </div>
+                </div>
+                <div class="rounded border border-gray-300 rounded w-1/4 flex mt-2 ml-2">
+                    <div class="border bg-gray-300 rounded w-16 h-16 my-2 ml-2">
+
+                    </div>
+                    <div class="ml-2 mt-2">
+                        <h1>Accounting/Finance</h1>
+                        <h1 class="text-sm text-gray-500">(10 Positions)</h1>
+                    </div>
+                </div>
+                <div class="rounded border border-gray-300 rounded w-1/4 flex mt-2 ml-2">
                     <div class="border bg-gray-300 rounded w-16 h-16 my-2 ml-2">
 
                     </div>
@@ -94,6 +123,112 @@
                 </div>
 
             </div>
+        </div>
+
+
+        <div class="featured jobs">
+            <div class="flex">
+
+                
+            </div>
+            <div class="text-center mt-6">
+                <button class="bg-blue-500 hover:border-solid hover:bg-white hover:text-blue-500 hover:border-blue-500 rounded h-10 text-white p-2 text-center">Load More Listing</button>    
+            </div>
+            
+            
+
+        </div>
+
+        
+
+        <div class="top-recruiters mt-10">
+            <h1 class="text-xl font-bold text-center">Top Recruiters</h1>
+
+            <div class="flex space-x-2 flex-wrap mt-6">
+            <img src="viukazi2.png" alt="" class="border rounded h-20">
+            <img src="viukazi2.png" alt="" class="border rounded h-20">
+            <img src="viukazi2.png" alt="" class="border rounded h-20">
+            <img src="viukazi2.png" alt="" class="border rounded h-20">
+            <img src="viukazi2.png" alt="" class="border rounded h-20">
+            <img src="viukazi2.png" alt="" class="border rounded h-20">
+           
+        </div>
+        </div>
+        <div class="call-to-action flex flex-col mt-6 bg-gray-300 p-8 rounded">
+            <div class="text-xl font-bold">Recruiting?</div>
+            <div class="mt-2">Advertise your jobs to millions of monthly users and search 15.8 million CVs in our database.</div>
+            <div class=" mt-6">
+                <button class="bg-blue-500 hover:border-solid hover:bg-white hover:text-blue-500 hover:border-blue-500 rounded h-10 text-white p-2 text-center">Start Recruitng Now</button>    
+            </div>
+            
+        </div>
+
+        <div class="testimonials mt-10">
+            <h1 class="text-xl text-center font-bold">Testimonials</h1>
+        </div>
+
+        <footer class="flex mt-10 mx-4 space-x-20 ">
+            <div class="contact-details flex flex-col space-y-2">
+                <img src="viukazi2.png" alt="">
+                <h1 class="text-xl mt-4 font-bold">Call</h1>
+                <h1 class="text-xl text-blue-500">0769869064</h1>
+                
+                <h1 class="">Along Oginga Odinga Street</h1>
+                <h1 class="">40111 Kenya</h1>
+                <h1 class="">support@viukazi.com</h1>
+              <!--   <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1> -->
+            </div>
+            <div class="important-links flex-col space-y-2">
+                <h1 class="font-bold text-xl">For Candidates</h1>
+                <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1>
+                <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1>
+            </div>
+
+              <div class="important-links flex-col space-y-2">
+                <h1 class="font-bold text-xl">For Employers</h1>
+                <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1>
+                <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1>
+            </div>
+
+              <div class="important-links flex-col space-y-2">
+                <h1 class="font-bold text-xl">About Us</h1>
+                <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1>
+                <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1>
+            </div>
+
+              <div class="important-links flex-col space-y-2">
+                <h1 class="font-bold text-xl">Helpful Resources</h1>
+                <h1 class="mt-2">Recruiters</h1>
+                <h1 class="mt-2">Candidates</h1>
+                <h1 class="mt-2">Terms and conditions</h1>
+                <h1>Recruiters</h1>
+                <h1>Candidates</h1>
+                <h1>Terms and conditions</h1>
+            </div>
+            <hr>
+        </footer>
+        <div class="divide-y mt-10">
+            <hr>
+        </div>
+        <div class="copyright flex justify-between mt-10 ">
+            <!-- <hr> -->
+            <h1>© 2022 ViuKazi. All Right Reserved.</h1>
+
+            <h1>socila media links</h1>
         </div>
     </main>
 </body>
